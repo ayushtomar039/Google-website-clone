@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+nav .container {
+    display: flex;
+    justify-content: flex-end;
+}
+nav .container ul {
+    display: flex;
+    gap: 19px;
+    align-items: center;
+    margin-right: 16px;;
+}
+nav .container li a:visited
+{
+   color: black;
+}
+nav .container li a:link
+{
+    color: black;
+}
+nav .container li a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+nav .container ul li {
+    list-style-type: none;
+}
+.nav-item {
+    height: 40px;
+}
+.nav-item2 {
+    height: 60px;
+    border-radius: 50%;
+}
+.section-one .container {
+    display: flex;
+
+    flex-direction: column;
+}
+body > section > div > img {
+    align-self: center;
+}
+.input-box {
+    height: 35px;
+    align-self: center;
+    width: 900px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    padding: 10px;
+    background: #fff;
+}
+.search-buttons {
+    align-self: center;
+}
+.search-buttons button {
+    height: 40px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0px 16px; 
+}
+.offered {
+    align-self: center;
+    display: flex;
+}
+.offered ul {
+    display: flex;
+    gap: 15px;
+}
+.offered ul li {
+    list-style-type: none;
+}
+
+.offered ul li a:link {
+    color: darkblue;
+}
+
+.offered ul li a:visited {
+    color: darkblue;
+}
+.offered ul li a {
+    text-decoration: none;
+}
+.offered ul {
+    padding-left: 18px;
+}
+.section-one {
+    height: 71vh;
+}
+
+footer .container1 {
+    display: flex;
+    padding: 15px 30px;
+    background-color: #f2f2f2;
+    height: 50%;
+}
+
+footer .container1 p {
+    margin: 0;
+    padding: 0;
+}
+
+footer .container2 {
+    display: flex;
+    background-color: #f2f2f2;
+    height: 50%;
+    justify-content: space-around;
+}
+
+footer .container2 .item1 ul li {
+    list-style-type: none;
+}
+
+footer .container2 .item1 ul {
+    display: flex;
+    gap: 40px;
+}
+
+footer .container2 .item2 ul li {
+    list-style-type: none;
+}
+
+footer .container2 .item2 ul {
+    display: flex;
+    gap: 40px;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+footer .container1 a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+footer .container2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.search-buttons button:hover {
+    border: 1px solid #bababa;
+}
+footer .line {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
